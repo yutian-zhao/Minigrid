@@ -4,6 +4,7 @@ from minigrid.envs.blockedunlockpickup import BlockedUnlockPickupEnv
 from minigrid.envs.crossing import CrossingEnv
 from minigrid.envs.distshift import DistShiftEnv
 from minigrid.envs.doorkey import DoorKeyEnv
+from minigrid.envs.continuousdoors import ContinuousDoorsEnv
 from minigrid.envs.dynamicobstacles import DynamicObstaclesEnv
 from minigrid.envs.empty import EmptyEnv
 from minigrid.envs.fetch import FetchEnv

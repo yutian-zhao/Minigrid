@@ -114,6 +114,26 @@ def register_minigrid_envs():
         kwargs={"size": 16},
     )
 
+    # ContinuousDoors
+    # ----------------------------------------
+    register(
+        id="MiniGrid-ContinuousDoors-8x8-v0",
+        entry_point="minigrid.envs:ContinuousDoorsEnv",
+        kwargs={"size": 8},
+    )
+
+    register(
+        id="MiniGrid-ContinuousDoors-12x12-v0",
+        entry_point="minigrid.envs:ContinuousDoorsEnv",
+        kwargs={"size": 12},
+    )
+
+    register(
+        id="MiniGrid-ContinuousDoors-16x16-v0",
+        entry_point="minigrid.envs:ContinuousDoorsEnv",
+        kwargs={"size": 16},
+    )
+
     # Dynamic-Obstacles
     # ----------------------------------------
 
