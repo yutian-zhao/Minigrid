@@ -106,7 +106,7 @@ class ContinuousDoorsEnv(MiniGridEnv):
         self.yellow_key_pos = self.place_obj(obj=Key("yellow"), top=(0, 0), size=(splitIdx, height))
         self.red_key_pos = self.place_obj(obj=Key("red"), top=(0, 0), size=(splitIdx, height))
 
-        self.mission = "use the key to open the door and then get to the goal"
+        self.mission = "use the key to open the continuous doors and then get to the goal"
 
     def step(self, action):
         """Steps through the environment with `action`."""
